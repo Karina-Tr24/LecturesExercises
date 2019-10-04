@@ -1,0 +1,119 @@
+commit 4493a06fcb301899bdff8b33de8c2b5d1af23f64
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Oct 1 12:50:38 2019 +0100
+
+    second script just renamed it
+
+commit 5f72ecf67a97287c6037e8e6c1703d8262eb5ef2
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Oct 1 12:41:02 2019 +0100
+
+    20mismatches 20 first, counter and if, Lecture05
+
+commit d9d7344e2f903c73b6449990f0eabb0afefefd44
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Oct 1 12:22:23 2019 +0100
+
+    20mismatches and less than100 AA lecture05
+
+commit 37941c4219b4239f0d28b367fbe7ecf6642773d2
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Oct 1 12:11:16 2019 +0100
+
+    more than 20 mismatches list of HSPs lecture05
+
+commit 06c9973534e035e752008525182743139edc33d9
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Oct 1 11:55:42 2019 +0100
+
+    list percentage and length lecture05
+
+commit ca029783233670f4906b675ce0c624c1a95fccce
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Oct 1 11:46:54 2019 +0100
+
+    list HSP lecture05 just like the one before but this put into a file
+
+commit 7a0c52cdeda03ecc14e6783022c62ffca7784f1d
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Oct 1 11:30:20 2019 +0100
+
+    show list of lecture04
+
+commit 397f09dc95434ba81d0645a1f495480bb2137d9e
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Sat Sep 28 17:44:34 2019 +0100
+
+    sorts people by birthday month in files and writes name and birthday
+
+commit cdd2b3a91708fa525da384d17e089b242ad74c56
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Sat Sep 28 17:02:34 2019 +0100
+
+    Showing a list with the months
+
+commit d48d3018301038cd8946e40d091bfca0451b0175
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Fri Sep 27 12:45:33 2019 +0100
+
+     I put example_people_data.tsv on the folder
+
+commit 8953e53a1c0406367777feb0042098fea18bcacb
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 23:05:33 2019 +0100
+
+    Updated contents of zip to include coolscript
+
+commit 5f5f8bd5495b8de175f954257fac248c8362a5e2
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 23:04:05 2019 +0100
+
+    I am not sure cool script is actually any good
+
+commit 47c244c87e4dbb5d9f81bd956ad6ffbdacb11a38
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 22:48:34 2019 +0100
+
+    my_cool_script.sh
+
+commit 082c50a868674f2791819e4311110552d2cbab6a
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 22:38:11 2019 +0100
+
+    Third version of the someotherfil.sh shell script
+
+commit 0e8838bb9297a8269ab0e359daee5fc40fddb367
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 22:36:18 2019 +0100
+
+    Updated version of zip
+
+commit e8464c415896643e4582ba4b502fe37e8329c26b
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 22:35:44 2019 +0100
+
+    Second version of the someotherfile.sh shell script
+
+commit 68589b9bb804ef5f12b3aa143e849d0241f7337a
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 22:34:05 2019 +0100
+
+    Added the someotherfile.sh shell script
+
+commit bac6618b82e8bc04c5540b530a0c6fc8c9ba18df
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 22:28:16 2019 +0100
+
+    Additional motif files, and updated zip file
+
+commit 2f9e7d0302327460b856773287adcf5de79fe553
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 13:10:27 2019 +0100
+
+    Assignment all done and zipped
+
+commit 834ba816052c2043285f4c73aa4605bf7c35a4a6
+Author: B149311-2019 <s1988593@ed.ac.uk>
+Date:   Tue Sep 24 13:08:03 2019 +0100
+
+    First file added
