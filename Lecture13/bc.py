@@ -13,4 +13,4 @@ def undet(seq):
 
 assert undet("atcggtcsatcscscsca") == 'True'
 assert undet("aaatggcagctacxxxxxggggaaattcgcgcgcgc") == 'True'
-assert undet("acatctactagggxxxxxxxxddddeeeee") == 'False'
+assert undet("acatctxxxxxxxxddddeeeee") == 'False'
