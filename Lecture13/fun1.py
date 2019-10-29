@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 import os, sys, subprocess
 
-def percentage(seq, aa):
+def percentage2(seq, aa=['A','I','L','M','F','W','Y','V']):
+	aac=0	
 	length=len(seq)
-	aac=seq.count(aa)
-	per=(aac/length)*100
+	for a in aa:
+		aac += seq.count(a)
+	per=(aac/length)*100	
 	return per
 
-#the second doesnt work
-assert round(percentage("MSRSLLLRFLLFLLLLPPLP", "M")) == round(5)
-assert round(percentage("MSRSLLLRFLLFLLLLPPLP", "r")) == round(10)
-assert round(percentage("MSRSLLLRFLLFLLLLPPLP", "L")) == round(50)
-assert round(percentage("MSRSLLLRFLLFLLLLPPLP", "Y")) == round(0)
+assert round(percentage2("MSRSLLLRFLLFLLLLPPLP", ["M"])) == 5
+assert round(percentage2("MSRSLLLRFLLFLLLLPPLP", ['F', 'S', 'L'])) == 70
+assert round(percentage2("MSRSLLLRFLLFLLLLPPLP")) == 65
