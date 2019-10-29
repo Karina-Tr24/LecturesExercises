@@ -1,3 +1,4 @@
+#!/bin/bash
 rm -f *.details
 count=0
 IFS=$'\t'
