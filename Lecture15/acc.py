@@ -36,3 +36,8 @@ print('\n')
 for num in accnum:
   if re.search(r'^[x|y]',num) and re.search(r'e$',num):
     print('Start with x or y and end with e in acc number: ' + num)
+    
+print('\n')    
+for num in accnum:
+  if re.search(r'\d{3,}',num):
+    print('3<= row in acc number: ' + num)
