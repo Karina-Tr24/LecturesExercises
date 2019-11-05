@@ -41,3 +41,8 @@ print('\n')
 for num in accnum:
   if re.search(r'\d{3,}',num):
     print('3<= row in acc number: ' + num)
+    
+print('\n')    
+for num in accnum:
+  if re.search(r'd[arp]$',num):
+    print('end with d follow by a,r or p: ' + num)
