@@ -31,3 +31,8 @@ print('\n')
 for num in accnum:
   if re.search(r'^[x|y]',num):
     print('Start with x or y in acc number: ' + num)
+    
+print('\n')    
+for num in accnum:
+  if re.search(r'^[x|y]',num) and re.search(r'e$',num):
+    print('Start with x or y and end with e in acc number: ' + num)
