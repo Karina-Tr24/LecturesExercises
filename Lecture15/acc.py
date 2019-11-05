@@ -21,3 +21,8 @@ print('\n')
 for num in accnum:
   if re.search(r'(d.e)',num):
     print('Found d and e with a character in the middle in acc number: ' + num)
+
+print('\n')    
+for num in accnum:
+  if re.search(r'd',num) and re.search(r'e',num):
+    print('Found d and e in acc number: ' + num)
