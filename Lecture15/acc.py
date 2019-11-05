@@ -11,3 +11,8 @@ print('\n')
 for num in accnum:
   if re.search(r'[d|e]',num):
     print('Found d or e in acc number: ' + num)
+    
+print('\n')    
+for num in accnum:
+  if re.search(r'de',num):
+    print('Found de in acc number: ' + num)
