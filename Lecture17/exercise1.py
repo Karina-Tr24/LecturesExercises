@@ -18,3 +18,8 @@ print('Sequences in Plants: ', df[df.apply(lambda x : x['Group'] in ['Plants'], 
 print('Sequences in Animals: ', df[df.apply(lambda x : x['Group'] in ['Animals'], axis=1)].shape[0])
 print('Sequences in Protists: ', df[df.apply(lambda x : x['Group'] in ['Protists'], axis=1)].shape[0])
 print('Sequences in Other: ', df[df.apply(lambda x : x['Group'] in ['Other'], axis=1)].shape[0])
+
+#third question
+df['genus'] = df.apply(lambda x : x['#Organism/Name'].split(' ')[0], axis=1)
+print(set(df[df.apply(lambda x: x['genus'] in ['Heliconius'],axis=1)]['#Organism/Name']))
+print(df[df.apply(lambda x: x['genus'] in ['Heliconius'],axis=1)]['#Organism/Name'].shape[0])
