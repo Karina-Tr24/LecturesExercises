@@ -11,3 +11,10 @@ fungi=df[df.apply( lambda x : x['Size (Mb)'] > 100 and x['Group'] in ['Fungi'], 
 print(fungi.shape[0]) 
 #Set of names of fungi sequences
 print(set(df[df.apply( lambda x : x['Size (Mb)'] > 100 and x['Group'] in ['Fungi'], axis=1 )]['#Organism/Name']))
+
+#question 2
+print('Sequences in Fungi: ', df[df.apply(lambda x : x['Group'] in ['Fungi'], axis=1)].shape[0])
+print('Sequences in Plants: ', df[df.apply(lambda x : x['Group'] in ['Plants'], axis=1)].shape[0])
+print('Sequences in Animals: ', df[df.apply(lambda x : x['Group'] in ['Animals'], axis=1)].shape[0])
+print('Sequences in Protists: ', df[df.apply(lambda x : x['Group'] in ['Protists'], axis=1)].shape[0])
+print('Sequences in Other: ', df[df.apply(lambda x : x['Group'] in ['Other'], axis=1)].shape[0])
