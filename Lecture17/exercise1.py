@@ -23,3 +23,7 @@ print('Sequences in Other: ', df[df.apply(lambda x : x['Group'] in ['Other'], ax
 df['genus'] = df.apply(lambda x : x['#Organism/Name'].split(' ')[0], axis=1)
 print(set(df[df.apply(lambda x: x['genus'] in ['Heliconius'],axis=1)]['#Organism/Name']))
 print(df[df.apply(lambda x: x['genus'] in ['Heliconius'],axis=1)]['#Organism/Name'].shape[0])
+
+#4th question
+print('Name of the center the center that has sequences most plant genomes and how many: ',df[df.apply(lambda x : x['Group'] in ['Plants'], axis=1)]['Center'].value_counts().head(1))
+print('Name of the center the center that has sequences most insect genomes and how many: ',df[df.apply(lambda x : x['SubGroup'] in ['Insects'], axis=1)]['Center'].value_counts().head(1))
